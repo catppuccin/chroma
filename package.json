@@ -1,0 +1,23 @@
+{
+  "name": "catppuccin-chroma-theme",
+  "version": "0.1.0",
+  "description": "A simple plug-and-play Chroma theme based on Catppuccin color scheme!",
+  "main": "index.js",
+  "scripts": {
+    "build": "node src/index.js"
+  },
+  "keywords": [
+    "chroma",
+    "hugo",
+    "theme",
+    "catppuccin"
+  ],
+  "author": "Aniket Teredesai",
+  "license": "MIT",
+  "devDependencies": {
+    "@catppuccin/palette": "^0.1.8",
+    "eta": "^3.0.3",
+    "jss": "^10.9.0",
+    "jss-preset-default": "^10.10.0"
+  }
+}

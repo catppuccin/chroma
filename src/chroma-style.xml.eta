@@ -1,0 +1,83 @@
+<style name="catppuccin-<%= variantName %>">
+  <entry type="Background" style="bg:<%= variant.base.hex %> <%= variant.text.hex %>"/>
+  <entry type="CodeLine" style="<%= variant.text.hex %>"/>
+  <entry type="Error" style="<%= variant.red.hex %>"/>
+  <entry type="Other" style="<%= variant.text.hex %>"/>
+  <entry type="LineTableTD" style=""/>
+  <entry type="LineTable" style=""/>
+  <entry type="LineHighlight" style="<%= variant.surface1.hex %>"/>
+  <entry type="LineNumbersTable" style="<%= variant.overlay1.hex %>"/>
+  <entry type="LineNumbers" style="<%= variant.overlay1.hex %>"/>
+  <entry type="Keyword" style="<%= variant.mauve.hex %>"/>
+  <entry type="KeywordReserved" style="<%= variant.mauve.hex %>"/>
+  <entry type="KeywordPseudo" style="<%= variant.mauve.hex %>"/>
+  <entry type="KeywordConstant" style="<%= variant.peach.hex %>"/>
+  <entry type="KeywordDeclaration" style="<%= variant.red.hex %>"/>
+  <entry type="KeywordNamespace" style="<%= variant.teal.hex %>"/>
+  <entry type="KeywordType" style="<%= variant.red.hex %>"/>
+  <entry type="Name" style="<%= variant.text.hex %>"/>
+  <entry type="NameClass" style="<%= variant.yellow.hex %>"/>
+  <entry type="NameConstant" style="<%= variant.yellow.hex %>"/>
+  <entry type="NameDecorator" style="bold <%= variant.blue.hex %>"/>
+  <entry type="NameEntity" style="<%= variant.teal.hex %>"/>
+  <entry type="NameException" style="<%= variant.peach.hex %>"/>
+  <entry type="NameFunction" style="<%= variant.blue.hex %>"/>
+  <entry type="NameFunctionMagic" style="<%= variant.blue.hex %>"/>
+  <entry type="NameLabel" style="<%= variant.sky.hex %>"/>
+  <entry type="NameNamespace" style="<%= variant.peach.hex %>"/>
+  <entry type="NameProperty" style="<%= variant.peach.hex %>"/>
+  <entry type="NameTag" style="<%= variant.mauve.hex %>"/>
+  <entry type="NameVariable" style="<%= variant.rosewater.hex %>"/>
+  <entry type="NameVariableClass" style="<%= variant.rosewater.hex %>"/>
+  <entry type="NameVariableGlobal" style="<%= variant.rosewater.hex %>"/>
+  <entry type="NameVariableInstance" style="<%= variant.rosewater.hex %>"/>
+  <entry type="NameVariableMagic" style="<%= variant.rosewater.hex %>"/>
+  <entry type="NameAttribute" style="<%= variant.blue.hex %>"/>
+  <entry type="NameBuiltin" style="<%= variant.sky.hex %>"/>
+  <entry type="NameBuiltinPseudo" style="<%= variant.sky.hex %>"/>
+  <entry type="NameOther" style="<%= variant.text.hex, %>"/>
+  <entry type="Literal" style="<%= variant.text.hex %>"/>
+  <entry type="LiteralDate" style="<%= variant.text.hex %>"/>
+  <entry type="LiteralString" style="<%= variant.green.hex %>"/>
+  <entry type="LiteralStringChar" style="<%= variant.green.hex %>"/>
+  <entry type="LiteralStringSingle" style="<%= variant.green.hex %>"/>
+  <entry type="LiteralStringDouble" style="<%= variant.green.hex %>"/>
+  <entry type="LiteralStringBacktick" style="<%= variant.green.hex %>"/>
+  <entry type="LiteralStringOther" style="<%= variant.green.hex %>"/>
+  <entry type="LiteralStringSymbol" style="<%= variant.green.hex %>"/>
+  <entry type="LiteralStringInterpol" style="<%= variant.green.hex %>"/>
+  <entry type="LiteralStringAffix" style="<%= variant.red.hex %>"/>
+  <entry type="LiteralStringDelimiter" style="<%= variant.blue.hex %>"/>
+  <entry type="LiteralStringEscape" style="<%= variant.blue.hex %>"/>
+  <entry type="LiteralStringRegex" style="<%= variant.teal.hex %>"/>
+  <entry type="LiteralStringDoc" style="<%= variant.overlay0.hex %>"/>
+  <entry type="LiteralStringHeredoc" style="<%= variant.overlay0.hex %>"/>
+  <entry type="LiteralNumber" style="<%= variant.peach.hex %>"/>
+  <entry type="LiteralNumberBin" style="<%= variant.peach.hex %>"/>
+  <entry type="LiteralNumberHex" style="<%= variant.peach.hex %>"/>
+  <entry type="LiteralNumberInteger" style="<%= variant.peach.hex %>"/>
+  <entry type="LiteralNumberFloat" style="<%= variant.peach.hex %>"/>
+  <entry type="LiteralNumberIntegerLong" style="<%= variant.peach.hex %>"/>
+  <entry type="LiteralNumberOct" style="<%= variant.peach.hex %>"/>
+  <entry type="Operator" style="bold <%= variant.sky.hex %>"/>
+  <entry type="OperatorWord" style="bold <%= variant.sky.hex %>"/>
+  <entry type="Comment" style="italic <%= variant.overlay0.hex %>"/>
+  <entry type="CommentSingle" style="italic <%= variant.overlay0.hex %>"/>
+  <entry type="CommentMultiline" style="italic <%= variant.overlay0.hex %>"/>
+  <entry type="CommentSpecial" style="italic <%= variant.overlay0.hex %>"/>
+  <entry type="CommentHashbang" style="italic <%= variant.overlay0.hex %>"/>
+  <entry type="CommentPreproc" style="italic <%= variant.overlay0.hex %>"/>
+  <entry type="CommentPreprocFile" style="bold <%= variant.overlay0.hex %>"/>
+  <entry type="Generic" style="<%= variant.text.hex %>"/>
+  <entry type="GenericInserted" style="bg:<%= variant.surface0.hex %> <%= variant.green.hex %>"/>
+  <entry type="GenericDeleted" style="<%= variant.red.hex %> bg:<%= variant.surface0.hex %>"/>
+  <entry type="GenericEmph" style="italic <%= variant.text.hex %>"/>
+  <entry type="GenericStrong" style="bold <%= variant.text.hex %>"/>
+  <entry type="GenericUnderline" style="underline <%= variant.text.hex %>"/>
+  <entry type="GenericHeading" style="bold <%= variant.peach.hex %>"/>
+  <entry type="GenericSubheading" style="bold <%= variant.peach.hex %>"/>
+  <entry type="GenericOutput" style="<%= variant.text.hex %>"/>
+  <entry type="GenericPrompt" style="<%= variant.text.hex %>"/>
+  <entry type="GenericError" style="<%= variant.red.hex %>"/>
+  <entry type="GenericTraceback" style="<%= variant.red.hex %>"/>
+</style>
