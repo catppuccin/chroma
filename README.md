@@ -1,53 +1,70 @@
-<pre align="center">
-█▀▀ ▄▀█ ▀█▀ █▀█ █▀█ █░█ █▀▀ █▀▀ █ █▄░█
-█▄▄ █▀█ ░█░ █▀▀ █▀▀ █▄█ █▄▄ █▄▄ █ █░▀█
-</pre>
+<h3 align="center">
+	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
+	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
+	Catppuccin for <a href="https://github.com/alecthomas/chroma">Chroma</a>
+	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
+</h3>
 
-🌙 A simple Chroma theme based on the [Catppuccin](https://github.com/catppuccin/) color scheme!
+<p align="center">
+	<a href="https://github.com/icy-comet/catppuccin-chroma-theme/stargazers"><img src="https://img.shields.io/github/stars/icy-comet/catppuccin-chroma-theme?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+	<a href="https://github.com/icy-comet/catppuccin-chroma-theme/issues"><img src="https://img.shields.io/github/issues/icy-comet/catppuccin-chroma-theme?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+	<a href="https://github.com/icy-comet/catppuccin-chroma-theme/contributors"><img src="https://img.shields.io/github/contributors/icy-comet/catppuccin-chroma-theme?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+</p>
 
-No more client-side JS-based highlighting for a better dark highlighting theme with Hugo!
+<p align="center">
+	<img src="assets/previews/preview.webp"/>
+</p>
 
-Feel free to open a Issue/PR for improvements!
+## Previews
 
-# Screenshots
-### Mocha
-![](assets/mocha.png)
+<details>
+<summary>🌻 Latte</summary>
+<img src="assets/previews/latte.png">
+</details>
+<details>
+<summary>🪴 Frappé</summary>
+<img src="assets/previews/frappe.png">
+</details>
+<details>
+<summary>🌺 Macchiato</summary>
+<img src="assets/previews/macchiato.png">
+</details>
+<details>
+<summary>🌿 Mocha</summary>
+<img src="assets/previews/mocha.png">
+</details>
 
-### Macchiato
-![](assets/macchiato.png)
 
-### Frappe
-![](assets/frappe.png)
-
-### Latte
-![](assets/latte.png)
-
-# Use with chroma CLI ⌨️
+## Use with chroma CLI ⌨️
 
 ### Use the CSS Styles
 - Specify the output format as `html` when invoking `chroma` with `chroma -f html`.
 - Clear out the styles from the generated output, i.e. delete everything in between the opening and closing `<style>` tags.
-- Then just copy and paste the contents of `dist/{desiredFlavour}-chroma-style.css` in the cleared space.
+- Then just copy and paste the contents of `dist/{flavor}-chroma-style.css` in the cleared space.
 - You might need to adjust the body's text and background color yourself.
 
 ### Use the XML Styles
-- Specify the path (on your device) to the `dist/{desiredFlavour}-chroma-style.xml` when invoking `chroma` with the `-s` flag.
+- Specify the path (on your device) to the `dist/{flavor}-chroma-style.xml` when invoking `chroma` with the `-s` flag.
 
-# Use with Hugo 🛠️
+## Use with Hugo 🛠️
 - Set `markup.highlight.noClasses` to `false` in your Hugo config.
-- Include the desired stylesheet — `dist/{desiredFlavour}-chroma-style.css` in your layouts, e.g. in a `head` partial to make it available on all pages.
+- Include the desired stylesheet — `dist/{flavor}-chroma-style.css` in your layouts, e.g. in a `head` partial to make it available on all pages.
 
-# Build 🏗️
-- Run `npm run build` inside project's root directory.
-- You could also run `npm update -S` before running the build to use the latest Catppuccin colors.
-- Look for `dist/{desiredFlavour}-chroma-style.{css|xml}` after successful build.
+## 💝 Thanks to
 
-# CSS Reference 📙
-To create a reference stylesheet of classes, run:
-```
-hugo gen chromastyles --style=monokai > sample.css
-```
-
-# Credits ⭐
+- [Aniket Teredesai](https://github.com/icy-comet)
 - [JSS Project](https://github.com/cssinjs/jss)
-- [Catppuccin Project](https://github.com/catppuccin/)
+
+&nbsp;
+
+<p align="center">
+	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" />
+</p>
+
+<p align="center">
+	Copyright &copy; 2021-present <a href="https://github.com/catppuccin" target="_blank">Catppuccin Org</a>
+</p>
+
+<p align="center">
+	<a href="https://github.com/catppuccin/catppuccin/blob/main/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&logoColor=d9e0ee&colorA=363a4f&colorB=b7bdf8"/></a>
+</p>
