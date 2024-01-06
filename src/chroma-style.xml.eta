@@ -5,7 +5,7 @@
   <entry type="Other" style="<%= variant.text.hex %>"/>
   <entry type="LineTableTD" style=""/>
   <entry type="LineTable" style=""/>
-  <entry type="LineHighlight" style="<%= variant.surface1.hex %>"/>
+  <entry type="LineHighlight" style="bg:<%= variant.surface1.hex %>"/>
   <entry type="LineNumbersTable" style="<%= variant.overlay1.hex %>"/>
   <entry type="LineNumbers" style="<%= variant.overlay1.hex %>"/>
   <entry type="Keyword" style="<%= variant.mauve.hex %>"/>
