@@ -19,19 +19,19 @@
 
 <details>
 <summary>🌻 Latte</summary>
-<img src="assets/previews/latte.png">
+<img src="assets/previews/latte.webp">
 </details>
 <details>
 <summary>🪴 Frappé</summary>
-<img src="assets/previews/frappe.png">
+<img src="assets/previews/frappe.webp">
 </details>
 <details>
 <summary>🌺 Macchiato</summary>
-<img src="assets/previews/macchiato.png">
+<img src="assets/previews/macchiato.webp">
 </details>
 <details>
 <summary>🌿 Mocha</summary>
-<img src="assets/previews/mocha.png">
+<img src="assets/previews/mocha.webp">
 </details>
 
 
