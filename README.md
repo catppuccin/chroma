@@ -6,9 +6,9 @@
 </h3>
 
 <p align="center">
-	<a href="https://github.com/icy-comet/catppuccin-chroma-theme/stargazers"><img src="https://img.shields.io/github/stars/icy-comet/catppuccin-chroma-theme?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-	<a href="https://github.com/icy-comet/catppuccin-chroma-theme/issues"><img src="https://img.shields.io/github/issues/icy-comet/catppuccin-chroma-theme?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-	<a href="https://github.com/icy-comet/catppuccin-chroma-theme/contributors"><img src="https://img.shields.io/github/contributors/icy-comet/catppuccin-chroma-theme?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/chroma/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/chroma?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/chroma/issues"><img src="https://img.shields.io/github/issues/catppuccin/chroma?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/chroma/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/chroma?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
 <p align="center">
@@ -35,20 +35,22 @@
 </details>
 
 
-## Use with chroma CLI ⌨️
+## Usage
 
-### Use the CSS Styles
-- Specify the output format as `html` when invoking `chroma` with `chroma -f html`.
-- Clear out the styles from the generated output, i.e. delete everything in between the opening and closing `<style>` tags.
-- Then just copy and paste the contents of `dist/{flavor}-chroma-style.css` in the cleared space.
-- You might need to adjust the body's text and background color yourself.
+### Chroma CLI
 
-### Use the XML Styles
-- Specify the path (on your device) to the `dist/{flavor}-chroma-style.xml` when invoking `chroma` with the `-s` flag.
+#### CSS Styles
+	- Specify the output format as `html` when invoking `chroma` with `chroma -f html`.
+	- Clear out the styles from the generated output, i.e. delete everything in between the opening and closing `<style>` tags.
+	- Then just copy and paste the contents of `dist/{flavor}-chroma-style.css` in the cleared space.
+	- You might need to adjust the body's text and background color yourself.
 
-## Use with Hugo 🛠️
-- Set `markup.highlight.noClasses` to `false` in your Hugo config.
-- Include the desired stylesheet — `dist/{flavor}-chroma-style.css` in your layouts, e.g. in a `head` partial to make it available on all pages.
+#### XML Styles
+	- Specify the path (on your device) to the `dist/{flavor}-chroma-style.xml` when invoking `chroma` with the `-s` flag.
+
+### Hugo 🛠️
+	- Set `markup.highlight.noClasses` to `false` in your Hugo config.
+	- Include the desired stylesheet — `dist/{flavor}-chroma-style.css` in your layouts, e.g. in a `head` partial to make it available on all pages.
 
 ## 💝 Thanks to
 
