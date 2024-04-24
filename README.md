@@ -34,23 +34,25 @@
 <img src="assets/previews/mocha.webp">
 </details>
 
-
 ## Usage
 
 ### Chroma CLI
 
 #### CSS Styles
-	- Specify the output format as `html` when invoking `chroma` with `chroma -f html`.
-	- Clear out the styles from the generated output, i.e. delete everything in between the opening and closing `<style>` tags.
-	- Then just copy and paste the contents of `dist/{flavor}-chroma-style.css` in the cleared space.
-	- You might need to adjust the body's text and background color yourself.
+
+- Specify the output format as `html` when invoking `chroma` with `chroma -f html`.
+- Clear out the styles from the generated output, i.e. delete everything in between the opening and closing `<style>` tags.
+- Then just copy and paste the contents of `dist/{flavor}-chroma-style.css` in the cleared space.
+- You might need to adjust the body's text and background color yourself.
 
 #### XML Styles
-	- Specify the path (on your device) to the `dist/{flavor}-chroma-style.xml` when invoking `chroma` with the `-s` flag.
+
+- Specify the path (on your device) to the `dist/{flavor}-chroma-style.xml` when invoking `chroma` with the `-s` flag.
 
 ### Hugo 🛠️
-	- Set `markup.highlight.noClasses` to `false` in your Hugo config.
-	- Include the desired stylesheet — `dist/{flavor}-chroma-style.css` in your layouts, e.g. in a `head` partial to make it available on all pages.
+
+- Set `markup.highlight.noClasses` to `false` in your Hugo config.
+- Include the desired stylesheet — `dist/{flavor}-chroma-style.css` in your layouts, e.g. in a `head` partial to make it available on all pages.
 
 ## 💝 Thanks to
 
@@ -70,3 +72,4 @@
 <p align="center">
 	<a href="https://github.com/catppuccin/catppuccin/blob/main/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&logoColor=d9e0ee&colorA=363a4f&colorB=b7bdf8"/></a>
 </p>
+
