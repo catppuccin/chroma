@@ -1,0 +1,93 @@
+---
+whiskers:
+  version: 2.1.0
+  matrix:
+    - flavor
+  filename: "dist/{{ flavor.identifier }}-chroma-style.xml"
+---
+
+{%- set palette = flavor.colors -%}
+
+<style name="catppuccin-{{ flavor.identifier }}">
+  <entry type="Background" style="bg:#{{ palette.base.hex }} #{{ palette.text.hex }}"/>
+  <entry type="CodeLine" style="#{{ palette.text.hex }}"/>
+  <entry type="Error" style="#{{ palette.red.hex }}"/>
+  <entry type="Other" style="#{{ palette.text.hex }}"/>
+  <entry type="LineTableTD" style=""/>
+  <entry type="LineTable" style=""/>
+  <entry type="LineHighlight" style="bg:#{{ palette.surface1.hex }}"/>
+  <entry type="LineNumbersTable" style="#{{ palette.overlay1.hex }}"/>
+  <entry type="LineNumbers" style="#{{ palette.overlay1.hex }}"/>
+  <entry type="Keyword" style="#{{ palette.mauve.hex }}"/>
+  <entry type="KeywordReserved" style="#{{ palette.mauve.hex }}"/>
+  <entry type="KeywordPseudo" style="#{{ palette.mauve.hex }}"/>
+  <entry type="KeywordConstant" style="#{{ palette.peach.hex }}"/>
+  <entry type="KeywordDeclaration" style="#{{ palette.red.hex }}"/>
+  <entry type="KeywordNamespace" style="#{{ palette.teal.hex }}"/>
+  <entry type="KeywordType" style="#{{ palette.red.hex }}"/>
+  <entry type="Name" style="#{{ palette.text.hex }}"/>
+  <entry type="NameClass" style="#{{ palette.yellow.hex }}"/>
+  <entry type="NameConstant" style="#{{ palette.yellow.hex }}"/>
+  <entry type="NameDecorator" style="bold #{{ palette.blue.hex }}"/>
+  <entry type="NameEntity" style="#{{ palette.teal.hex }}"/>
+  <entry type="NameException" style="#{{ palette.peach.hex }}"/>
+  <entry type="NameFunction" style="#{{ palette.blue.hex }}"/>
+  <entry type="NameFunctionMagic" style="#{{ palette.blue.hex }}"/>
+  <entry type="NameLabel" style="#{{ palette.sky.hex }}"/>
+  <entry type="NameNamespace" style="#{{ palette.peach.hex }}"/>
+  <entry type="NameProperty" style="#{{ palette.peach.hex }}"/>
+  <entry type="NameTag" style="#{{ palette.mauve.hex }}"/>
+  <entry type="NameVariable" style="#{{ palette.rosewater.hex }}"/>
+  <entry type="NameVariableClass" style="#{{ palette.rosewater.hex }}"/>
+  <entry type="NameVariableGlobal" style="#{{ palette.rosewater.hex }}"/>
+  <entry type="NameVariableInstance" style="#{{ palette.rosewater.hex }}"/>
+  <entry type="NameVariableMagic" style="#{{ palette.rosewater.hex }}"/>
+  <entry type="NameAttribute" style="#{{ palette.blue.hex }}"/>
+  <entry type="NameBuiltin" style="#{{ palette.sky.hex }}"/>
+  <entry type="NameBuiltinPseudo" style="#{{ palette.sky.hex }}"/>
+  <entry type="NameOther" style="#{{ palette.text.hex }}"/>
+  <entry type="Literal" style="#{{ palette.text.hex }}"/>
+  <entry type="LiteralDate" style="#{{ palette.text.hex }}"/>
+  <entry type="LiteralString" style="#{{ palette.green.hex }}"/>
+  <entry type="LiteralStringChar" style="#{{ palette.green.hex }}"/>
+  <entry type="LiteralStringSingle" style="#{{ palette.green.hex }}"/>
+  <entry type="LiteralStringDouble" style="#{{ palette.green.hex }}"/>
+  <entry type="LiteralStringBacktick" style="#{{ palette.green.hex }}"/>
+  <entry type="LiteralStringOther" style="#{{ palette.green.hex }}"/>
+  <entry type="LiteralStringSymbol" style="#{{ palette.green.hex }}"/>
+  <entry type="LiteralStringInterpol" style="#{{ palette.green.hex }}"/>
+  <entry type="LiteralStringAffix" style="#{{ palette.red.hex }}"/>
+  <entry type="LiteralStringDelimiter" style="#{{ palette.blue.hex }}"/>
+  <entry type="LiteralStringEscape" style="#{{ palette.blue.hex }}"/>
+  <entry type="LiteralStringRegex" style="#{{ palette.teal.hex }}"/>
+  <entry type="LiteralStringDoc" style="#{{ palette.overlay0.hex }}"/>
+  <entry type="LiteralStringHeredoc" style="#{{ palette.overlay0.hex }}"/>
+  <entry type="LiteralNumber" style="#{{ palette.peach.hex }}"/>
+  <entry type="LiteralNumberBin" style="#{{ palette.peach.hex }}"/>
+  <entry type="LiteralNumberHex" style="#{{ palette.peach.hex }}"/>
+  <entry type="LiteralNumberInteger" style="#{{ palette.peach.hex }}"/>
+  <entry type="LiteralNumberFloat" style="#{{ palette.peach.hex }}"/>
+  <entry type="LiteralNumberIntegerLong" style="#{{ palette.peach.hex }}"/>
+  <entry type="LiteralNumberOct" style="#{{ palette.peach.hex }}"/>
+  <entry type="Operator" style="bold #{{ palette.sky.hex }}"/>
+  <entry type="OperatorWord" style="bold #{{ palette.sky.hex }}"/>
+  <entry type="Comment" style="italic #{{ palette.overlay0.hex }}"/>
+  <entry type="CommentSingle" style="italic #{{ palette.overlay0.hex }}"/>
+  <entry type="CommentMultiline" style="italic #{{ palette.overlay0.hex }}"/>
+  <entry type="CommentSpecial" style="italic #{{ palette.overlay0.hex }}"/>
+  <entry type="CommentHashbang" style="italic #{{ palette.overlay0.hex }}"/>
+  <entry type="CommentPreproc" style="italic #{{ palette.overlay0.hex }}"/>
+  <entry type="CommentPreprocFile" style="bold #{{ palette.overlay0.hex }}"/>
+  <entry type="Generic" style="#{{ palette.text.hex }}"/>
+  <entry type="GenericInserted" style="bg:#{{ palette.surface0.hex }} #{{ palette.green.hex }}"/>
+  <entry type="GenericDeleted" style="#{{ palette.red.hex }} bg:#{{ palette.surface0.hex }}"/>
+  <entry type="GenericEmph" style="italic #{{ palette.text.hex }}"/>
+  <entry type="GenericStrong" style="bold #{{ palette.text.hex }}"/>
+  <entry type="GenericUnderline" style="underline #{{ palette.text.hex }}"/>
+  <entry type="GenericHeading" style="bold #{{ palette.peach.hex }}"/>
+  <entry type="GenericSubheading" style="bold #{{ palette.peach.hex }}"/>
+  <entry type="GenericOutput" style="#{{ palette.text.hex }}"/>
+  <entry type="GenericPrompt" style="#{{ palette.text.hex }}"/>
+  <entry type="GenericError" style="#{{ palette.red.hex }}"/>
+  <entry type="GenericTraceback" style="#{{ palette.red.hex }}"/>
+</style>
