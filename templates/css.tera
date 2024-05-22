@@ -1,0 +1,287 @@
+---
+whiskers:
+  version: 2.1.0
+  matrix:
+    - flavor
+  filename: "dist/{{ flavor.identifier }}-chroma-style.css"
+---
+
+{%- set palette = flavor.colors -%}
+
+.chroma {
+  color: #{{ palette.text.hex }};
+  background-color: #{{ palette.base.hex }};
+}
+.chroma .cl {
+  color: #{{ palette.text.hex }};
+}
+.chroma .err {
+  color: #{{ palette.red.hex }};
+}
+.chroma .x {
+  color: #{{ palette.text.hex }};
+}
+.chroma .lntd {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+}
+.chroma .lntable {
+  width: auto;
+  border: 0;
+  margin: 0;
+  display: block;
+  padding: 0;
+  overflow: auto;
+  border-spacing: 0;
+}
+.chroma .hl {
+  width: 100%;
+  display: block;
+  background-color: #{{ palette.surface1.hex }};
+}
+.chroma .lnt {
+  color: #{{ palette.overlay1.hex }};
+  padding: 0 0.4em 0 0.4em;
+  font-size: 0.875rem;
+  margin-right: 0.4em;
+}
+.chroma .ln {
+  color: #{{ palette.overlay1.hex }};
+  padding: 0 0.4em 0 0.4em;
+  margin-right: 0.4em;
+}
+.chroma .k {
+  color: #{{ palette.mauve.hex }};
+}
+.chroma .kr {
+  color: #{{ palette.mauve.hex }};
+}
+.chroma .kp {
+  color: #{{ palette.mauve.hex }};
+}
+.chroma .kc {
+  color: #{{ palette.peach.hex }};
+}
+.chroma .kd {
+  color: #{{ palette.red.hex }};
+}
+.chroma .kn {
+  color: #{{ palette.teal.hex }};
+}
+.chroma .kt {
+  color: #{{ palette.red.hex }};
+}
+.chroma .n {
+  color: #{{ palette.text.hex }};
+}
+.chroma .nc {
+  color: #{{ palette.yellow.hex }};
+}
+.chroma .no {
+  color: #{{ palette.yellow.hex }};
+}
+.chroma .nd {
+  color: #{{ palette.blue.hex }};
+  font-weight: bold;
+}
+.chroma .ni {
+  color: #{{ palette.teal.hex }};
+}
+.chroma .ne {
+  color: #{{ palette.peach.hex }};
+}
+.chroma .nf {
+  color: #{{ palette.blue.hex }};
+}
+.chroma .fm {
+  color: #{{ palette.blue.hex }};
+}
+.chroma .nl {
+  color: #{{ palette.sky.hex }};
+}
+.chroma .nn {
+  color: #{{ palette.peach.hex }};
+}
+.chroma .py {
+  color: #{{ palette.peach.hex }};
+}
+.chroma .nt {
+  color: #{{ palette.mauve.hex }};
+}
+.chroma .nv {
+  color: #{{ palette.rosewater.hex }};
+}
+.chroma .vc {
+  color: #{{ palette.rosewater.hex }};
+}
+.chroma .vg {
+  color: #{{ palette.rosewater.hex }};
+}
+.chroma .vi {
+  color: #{{ palette.rosewater.hex }};
+}
+.chroma .vm {
+  color: #{{ palette.rosewater.hex }};
+}
+.chroma .na {
+  color: #{{ palette.blue.hex }};
+}
+.chroma .nb {
+  color: #{{ palette.sky.hex }};
+}
+.chroma .bp {
+  color: #{{ palette.sky.hex }};
+}
+.chroma .nx {
+  color: #{{ palette.text.hex }};
+}
+.chroma .l {
+  color: #{{ palette.text.hex }};
+}
+.chroma .ld {
+  color: #{{ palette.text.hex }};
+}
+.chroma .s {
+  color: #{{ palette.green.hex }};
+}
+.chroma .sc {
+  color: #{{ palette.green.hex }};
+}
+.chroma .s1 {
+  color: #{{ palette.green.hex }};
+}
+.chroma .s2 {
+  color: #{{ palette.green.hex }};
+}
+.chroma .sb {
+  color: #{{ palette.green.hex }};
+}
+.chroma .sx {
+  color: #{{ palette.green.hex }};
+}
+.chroma .ss {
+  color: #{{ palette.green.hex }};
+}
+.chroma .si {
+  color: #{{ palette.green.hex }};
+}
+.chroma .sa {
+  color: #{{ palette.red.hex }};
+}
+.chroma .dl {
+  color: #{{ palette.blue.hex }};
+}
+.chroma .se {
+  color: #{{ palette.blue.hex }};
+}
+.chroma .sr {
+  color: #{{ palette.teal.hex }};
+}
+.chroma .sd {
+  color: #{{ palette.overlay0.hex }};
+}
+.chroma .sh {
+  color: #{{ palette.overlay0.hex }};
+}
+.chroma .m {
+  color: #{{ palette.peach.hex }};
+}
+.chroma .mb {
+  color: #{{ palette.peach.hex }};
+}
+.chroma .mh {
+  color: #{{ palette.peach.hex }};
+}
+.chroma .mi {
+  color: #{{ palette.peach.hex }};
+}
+.chroma .mf {
+  color: #{{ palette.peach.hex }};
+}
+.chroma .il {
+  color: #{{ palette.peach.hex }};
+}
+.chroma .mo {
+  color: #{{ palette.peach.hex }};
+}
+.chroma .o {
+  color: #{{ palette.sky.hex }};
+  font-weight: bold;
+}
+.chroma .ow {
+  color: #{{ palette.sky.hex }};
+  font-weight: bold;
+}
+.chroma .c {
+  color: #{{ palette.overlay0.hex }};
+  font-style: italic;
+}
+.chroma .c1 {
+  color: #{{ palette.overlay0.hex }};
+  font-style: italic;
+}
+.chroma .cm {
+  color: #{{ palette.overlay0.hex }};
+  font-style: italic;
+}
+.chroma .cs {
+  color: #{{ palette.overlay0.hex }};
+  font-style: italic;
+}
+.chroma .ch {
+  color: #{{ palette.surface2.hex }};
+  font-style: italic;
+}
+.chroma .cp {
+  color: #{{ palette.overlay0.hex }};
+  font-style: italic;
+}
+.chroma .cpf {
+  color: #{{ palette.overlay0.hex }};
+  font-weight: bold;
+}
+.chroma .g {
+  color: #{{ palette.text.hex }};
+}
+.chroma .gi {
+  color: #{{ palette.green.hex }};
+  background-color: #{{ palette.surface0.hex }};
+}
+.chroma .gd {
+  color: #{{ palette.red.hex }};
+  background-color: #{{ palette.surface0.hex }};
+}
+.chroma .ge {
+  color: #{{ palette.text.hex }};
+  font-style: italic;
+}
+.chroma .gs {
+  color: #{{ palette.text.hex }};
+  font-weight: bold;
+}
+.chroma .gl {
+  color: #{{ palette.text.hex }};
+  text-decoration: underline;
+}
+.chroma .gh {
+  color: #{{ palette.peach.hex }};
+  font-weight: bold;
+}
+.chroma .gu {
+  color: #{{ palette.peach.hex }};
+  font-weight: bold;
+}
+.chroma .go {
+  color: #{{ palette.text.hex }};
+}
+.chroma .gp {
+  color: #{{ palette.text.hex }};
+}
+.chroma .gr {
+  color: #{{ palette.red.hex }};
+}
+.chroma .gt {
+  color: #{{ palette.red.hex }};
+}
