@@ -29,7 +29,7 @@ tokens:
 {%- else -%}
 {%- for token in tokens %}
 {%- if token.color -%}
-.chroma {% if token.class %}.{{ token.class }} {% endif %} {
+.chroma {% if token.class %}.{{ token.class }} {% endif %}{
   color: {{ flavor.colors[token.color].hex }};{% if token.bg %}
   background-color: {{ flavor.colors[token.bg].hex }};{% endif %}
 }
