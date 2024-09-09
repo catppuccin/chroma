@@ -7,18 +7,18 @@ whiskers:
   filename: "dist/{{ flavor.identifier }}-chroma-style.{{ variant }}"
   hex_format: "#{{r}}{{g}}{{b}}{{z}}"
 tokens:
-- name: Background
-  color: text
-  bg: base
-- name: CodeLine
-  class: cl
-  color: text
-- name: Error
-  class: err
-  color: red
-- name: Other
-  class: x
-  color: text
+  - name: Background
+    color: text
+    bg: base
+  - name: CodeLine
+    class: cl
+    color: text
+  - name: Error
+    class: err
+    color: red
+  - name: Other
+    class: x
+    color: text
 ---
 {%- if variant == "xml" -%}
 <style name="catppuccin-{{ flavor.identifier }}">
