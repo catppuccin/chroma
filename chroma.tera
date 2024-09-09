@@ -1,0 +1,38 @@
+---
+whiskers:
+  version: "2.4.0"
+  matrix:
+    - flavor
+    - variant: ["xml", "css"]
+  filename: "dist/{{ flavor.identifier }}-chroma-style.{{ variant }}"
+  hex_format: "#{{r}}{{g}}{{b}}{{z}}"
+tokens:
+- name: Background
+  color: text
+  bg: base
+- name: CodeLine
+  class: cl
+  color: text
+- name: Error
+  class: err
+  color: red
+- name: Other
+  class: x
+  color: text
+---
+{%- if variant == "xml" -%}
+<style name="catppuccin-{{ flavor.identifier }}">
+{%- for token in tokens %}
+  <entry type="{{ token.name }}" style="{% if token.bg %}bg:{{ flavor.colors[token.bg].hex }} {% endif %}{% if token.color %}{{ flavor.colors[token.color].hex }}{% endif %}"/>
+{%- endfor %}
+</style>
+{%- else -%}
+{%- for token in tokens %}
+{%- if token.color -%}
+.chroma {% if token.class %}.{{ token.class }} {% endif %} {
+  color: {{ flavor.colors[token.color].hex }};{% if token.bg %}
+  background-color: {{ flavor.colors[token.bg].hex }};{% endif %}
+}
+{% endif -%}
+{%- endfor %}
+{%- endif %}
