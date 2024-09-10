@@ -19,6 +19,53 @@ tokens:
   - name: Other
     class: x
     color: text
+  - name: LineTableTD
+  - name: LineTable
+  - name: LineHighlight
+    bg: surface1
+  - name: LineNumbersTable
+    bg: overlay1
+  - name: LineNumbers
+    color: overlay1
+  - name: Keyword
+    color: mauve
+  - name: KeywordReserved
+    color: mauve
+  - name: KeywordPseudo
+    color: mauve
+  - name: KeywordConstant
+    color: peach
+  - name: KeywordDeclaration
+    color: red
+  - name: KeywordNamespace
+    color: teal
+  - name: KeywordType
+    color: red
+  - name: Name
+    color: text
+  - name: NameClass
+    color: yellow
+  - name: NameConstant
+    color: yellow
+  - name: NameDecorator
+    color: blue
+    bold: true
+  - name: NameEntity
+    color: teal
+  - name: NameException
+    color: peach
+  - name: NameFunction
+    color: blue
+  - name: NameFunctionMagic
+    color: blue
+  - name: NameLabel
+    color: sky
+  - name: NameNamespace
+    color: peach
+  - name: NameProperty
+    color: peach
+  - name: NameTag
+    color:
 ---
 {%- if variant == "xml" -%}
 <style name="catppuccin-{{ flavor.identifier }}">
