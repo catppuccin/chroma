@@ -1,0 +1,85 @@
+---
+whiskers:
+  version: "2.4.0"
+  matrix:
+    - flavor
+    - variant: ["xml", "css"]
+  filename: "dist/{{ flavor.identifier }}-chroma-style.{{ variant }}"
+  hex_format: "#{{r}}{{g}}{{b}}{{z}}"
+tokens:
+  - name: Background
+    color: text
+    bg: base
+  - name: CodeLine
+    class: cl
+    color: text
+  - name: Error
+    class: err
+    color: red
+  - name: Other
+    class: x
+    color: text
+  - name: LineTableTD
+  - name: LineTable
+  - name: LineHighlight
+    bg: surface1
+  - name: LineNumbersTable
+    bg: overlay1
+  - name: LineNumbers
+    color: overlay1
+  - name: Keyword
+    color: mauve
+  - name: KeywordReserved
+    color: mauve
+  - name: KeywordPseudo
+    color: mauve
+  - name: KeywordConstant
+    color: peach
+  - name: KeywordDeclaration
+    color: red
+  - name: KeywordNamespace
+    color: teal
+  - name: KeywordType
+    color: red
+  - name: Name
+    color: text
+  - name: NameClass
+    color: yellow
+  - name: NameConstant
+    color: yellow
+  - name: NameDecorator
+    color: blue
+    bold: true
+  - name: NameEntity
+    color: teal
+  - name: NameException
+    color: peach
+  - name: NameFunction
+    color: blue
+  - name: NameFunctionMagic
+    color: blue
+  - name: NameLabel
+    color: sky
+  - name: NameNamespace
+    color: peach
+  - name: NameProperty
+    color: peach
+  - name: NameTag
+    color:
+---
+{%- if variant == "xml" -%}
+<style name="catppuccin-{{ flavor.identifier }}">
+{%- for token in tokens %}
+  <entry type="{{ token.name }}" style="{% if token.bg %}bg:{{ flavor.colors[token.bg].hex }} {% endif %}{% if token.color %}{{ flavor.colors[token.color].hex }}{% endif %}"/>
+{%- endfor %}
+</style>
+{%- else -%}
+{%- for token in tokens %}
+{%- if token.color -%}
+.chroma {% if token.class %}.{{ token.class }} {% endif %}{
+  color: {{ flavor.colors[token.color].hex }};{% if token.bg %}
+  background-color: {{ flavor.colors[token.bg].hex }};{% endif %}
+}
+{% endif -%}
+{%- endfor %}
+{%- endif %}
