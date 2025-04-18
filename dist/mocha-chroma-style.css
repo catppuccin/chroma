@@ -11,4 +11,225 @@
 .chroma .x {
   color: #cdd6f4;
 }
+.chroma .ln {
+  color: #7f849c;
+}
+.chroma .k {
+  color: #cba6f7;
+}
+.chroma .kr {
+  color: #cba6f7;
+}
+.chroma .kp {
+  color: #cba6f7;
+}
+.chroma .kc {
+  color: #fab387;
+}
+.chroma .kd {
+  color: #f38ba8;
+}
+.chroma .kn {
+  color: #94e2d5;
+}
+.chroma .kt {
+  color: #f38ba8;
+}
+.chroma .n {
+  color: #cdd6f4;
+}
+.chroma .nc {
+  color: #f9e2af;
+}
+.chroma .nc {
+  color: #f9e2af;
+}
+.chroma .nd {
+  color: #89b4fa;
+}
+.chroma .ni {
+  color: #94e2d5;
+}
+.chroma .ne {
+  color: #fab387;
+}
+.chroma .nf {
+  color: #89b4fa;
+}
+.chroma .fm {
+  color: #89b4fa;
+}
+.chroma .nl {
+  color: #89dceb;
+}
+.chroma .nn {
+  color: #fab387;
+}
+.chroma .py {
+  color: #fab387;
+}
+.chroma .nt {
+  color: #cba6f7;
+}
+.chroma .nv {
+  color: #f5e0dc;
+}
+.chroma .vc {
+  color: #f5e0dc;
+}
+.chroma .vg {
+  color: #f5e0dc;
+}
+.chroma .vi {
+  color: #f5e0dc;
+}
+.chroma .vm {
+  color: #f5e0dc;
+}
+.chroma .na {
+  color: #89b4fa;
+}
+.chroma .nb {
+  color: #89dceb;
+}
+.chroma .bp {
+  color: #89dceb;
+}
+.chroma .nx {
+  color: #cdd6f4;
+}
+.chroma .l {
+  color: #cdd6f4;
+}
+.chroma .ld {
+  color: #cdd6f4;
+}
+.chroma .s {
+  color: #a6e3a1;
+}
+.chroma .sc {
+  color: #a6e3a1;
+}
+.chroma .s1 {
+  color: #a6e3a1;
+}
+.chroma .s2 {
+  color: #a6e3a1;
+}
+.chroma .sb {
+  color: #a6e3a1;
+}
+.chroma .sx {
+  color: #a6e3a1;
+}
+.chroma .ss {
+  color: #a6e3a1;
+}
+.chroma .si {
+  color: #a6e3a1;
+}
+.chroma .sa {
+  color: #f38ba8;
+}
+.chroma .dl {
+  color: #89b4fa;
+}
+.chroma .se {
+  color: #89b4fa;
+}
+.chroma .sr {
+  color: #94e2d5;
+}
+.chroma .sd {
+  color: #6c7086;
+}
+.chroma .sh {
+  color: #6c7086;
+}
+.chroma .m {
+  color: #fab387;
+}
+.chroma .mb {
+  color: #fab387;
+}
+.chroma .mh {
+  color: #fab387;
+}
+.chroma .mi {
+  color: #fab387;
+}
+.chroma .mf {
+  color: #fab387;
+}
+.chroma .il {
+  color: #fab387;
+}
+.chroma .mo {
+  color: #fab387;
+}
+.chroma .o {
+  color: #89dceb;
+}
+.chroma .ow {
+  color: #89dceb;
+}
+.chroma .c {
+  color: #6c7086;
+}
+.chroma .c1 {
+  color: #6c7086;
+}
+.chroma .cm {
+  color: #6c7086;
+}
+.chroma .cs {
+  color: #6c7086;
+}
+.chroma .ch {
+  color: #6c7086;
+}
+.chroma .cp {
+  color: #6c7086;
+}
+.chroma .cpf {
+  color: #6c7086;
+}
+.chroma .g {
+  color: #cdd6f4;
+}
+.chroma .gi {
+  color: #a6e3a1;
+  background-color: #313244;
+}
+.chroma .gd {
+  color: #f38ba8;
+  background-color: #313244;
+}
+.chroma .ge {
+  color: #cdd6f4;
+}
+.chroma .gs {
+  color: #cdd6f4;
+}
+.chroma .gl {
+  color: #cdd6f4;
+}
+.chroma .gh {
+  color: #fab387;
+}
+.chroma .gu {
+  color: #fab387;
+}
+.chroma .go {
+  color: #cdd6f4;
+}
+.chroma .gp {
+  color: #cdd6f4;
+}
+.chroma .gr {
+  color: #f38ba8;
+}
+.chroma .gt {
+  color: #f38ba8;
+}
 
