@@ -27,19 +27,20 @@
   color: #cba6f7;
 }
 .chroma .kp {
-  color: #cba6f7;
+  color: #f5c2e7;
 }
 .chroma .kc {
-  color: #fab387;
+  color: #cba6f7;
 }
 .chroma .kd {
   color: #f38ba8;
+  font-style: italic;
 }
 .chroma .kn {
-  color: #94e2d5;
+  color: #cba6f7;
 }
 .chroma .kt {
-  color: #f38ba8;
+  color: #f9e2af;
 }
 .chroma .n {
   color: #cdd6f4;
@@ -48,17 +49,17 @@
   color: #f9e2af;
 }
 .chroma .no {
-  color: #f9e2af;
+  color: #cdd6f4;
 }
 .chroma .nd {
-  color: #89b4fa;
+  color: #cdd6f4;
   font-weight: bold;
 }
 .chroma .ni {
-  color: #94e2d5;
+  color: #cdd6f4;
 }
 .chroma .ne {
-  color: #fab387;
+  color: #f9e2af;
 }
 .chroma .nf {
   color: #89b4fa;
@@ -67,40 +68,46 @@
   color: #89b4fa;
 }
 .chroma .nl {
-  color: #89dceb;
+  color: #94e2d5;
+  font-style: italic;
 }
 .chroma .nn {
-  color: #fab387;
+  color: #cdd6f4;
 }
 .chroma .py {
   color: #fab387;
 }
 .chroma .nt {
-  color: #cba6f7;
+  color: #89b4fa;
 }
 .chroma .nv {
-  color: #f5e0dc;
+  color: #cdd6f4;
+  font-style: italic;
 }
 .chroma .vc {
-  color: #f5e0dc;
+  color: #f9e2af;
+  font-style: italic;
 }
 .chroma .vg {
-  color: #f5e0dc;
+  color: #cdd6f4;
+  font-style: italic;
 }
 .chroma .vi {
-  color: #f5e0dc;
+  color: #cdd6f4;
+  font-style: italic;
 }
 .chroma .vm {
   color: #f5e0dc;
 }
 .chroma .na {
-  color: #89b4fa;
+  color: #a6e3a1;
 }
 .chroma .nb {
-  color: #89dceb;
+  color: #f38ba8;
+  font-style: italic;
 }
 .chroma .bp {
-  color: #89dceb;
+  color: #f38ba8;
 }
 .chroma .nx {
   color: #cdd6f4;
@@ -142,16 +149,16 @@
   color: #89b4fa;
 }
 .chroma .se {
-  color: #89b4fa;
+  color: #f5c2e7;
 }
 .chroma .sr {
-  color: #94e2d5;
+  color: #f5c2e7;
 }
 .chroma .sd {
-  color: #6c7086;
+  color: #a6e3a1;
 }
 .chroma .sh {
-  color: #6c7086;
+  color: #a6e3a1;
 }
 .chroma .m {
   color: #fab387;
@@ -179,35 +186,35 @@
   font-weight: bold;
 }
 .chroma .ow {
-  color: #89dceb;
+  color: #cba6f7;
   font-weight: bold;
 }
 .chroma .c {
-  color: #6c7086;
+  color: #9399b2;
   font-style: italic;
 }
 .chroma .c1 {
-  color: #6c7086;
+  color: #9399b2;
   font-style: italic;
 }
 .chroma .cm {
-  color: #6c7086;
+  color: #9399b2;
   font-style: italic;
 }
 .chroma .cs {
-  color: #6c7086;
+  color: #9399b2;
   font-style: italic;
 }
 .chroma .ch {
-  color: #585b70;
+  color: #9399b2;
   font-style: italic;
 }
 .chroma .cp {
-  color: #6c7086;
+  color: #f5c2e7;
   font-style: italic;
 }
 .chroma .cpf {
-  color: #6c7086;
+  color: #f5c2e7;
   font-weight: bold;
 }
 .chroma .g {
