@@ -11,6 +11,9 @@
 .chroma .x {
   color: #c6d0f5;
 }
+.chroma .hl {
+  background-color: #51576d;
+}
 .chroma .lnt {
   color: #838ba7;
 }

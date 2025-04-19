@@ -275,8 +275,8 @@ tokens:
 {%- else -%}
 {%- for token in tokens %}
 {%- if token.color or token.bg -%}
-.chroma {% if token.class %}.{{ token.class }} {% endif %}{
-  color: {{ flavor.colors[token.color].hex }};{% if token.bg %}
+.chroma {% if token.class %}.{{ token.class }} {% endif %}{% raw %}{{% endraw %}{% if token.color %}
+  color: {{ flavor.colors[token.color].hex }};{% endif %}{% if token.bg %}
   background-color: {{ flavor.colors[token.bg].hex }};{% endif %}{% if token.bold %}
   font-weight: bold;{% endif %}{% if token.italic %}
   font-style: italic;{% endif %}{% if token.underline %}
