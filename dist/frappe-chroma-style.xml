@@ -6,7 +6,7 @@
   <entry type="LineTableTD" style=""/>
   <entry type="LineTable" style=""/>
   <entry type="LineHighlight" style="bg:#51576d "/>
-  <entry type="LineNumbersTable" style="bg:#838ba7 "/>
+  <entry type="LineNumbersTable" style="#838ba7"/>
   <entry type="LineNumbers" style="#838ba7"/>
   <entry type="Keyword" style="#ca9ee6"/>
   <entry type="KeywordReserved" style="#ca9ee6"/>
@@ -60,12 +60,12 @@
   <entry type="LiteralNumberIntegerLong" style="#ef9f76"/>
   <entry type="LiteralNumberOct" style="#ef9f76"/>
   <entry type="Operator" style="bold #99d1db"/>
-  <entry type="OperatorWord" style="#99d1db"/>
+  <entry type="OperatorWord" style="bold #99d1db"/>
   <entry type="Comment" style="italic #737994"/>
   <entry type="CommentSingle" style="italic #737994"/>
   <entry type="CommentMultiline" style="italic #737994"/>
   <entry type="CommentSpecial" style="italic #737994"/>
-  <entry type="CommentHashbang" style="italic #737994"/>
+  <entry type="CommentHashbang" style="italic #626880"/>
   <entry type="CommentPreproc" style="italic #737994"/>
   <entry type="CommentPreprocFile" style="bold #737994"/>
   <entry type="Generic" style="#c6d0f5"/>

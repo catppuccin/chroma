@@ -28,7 +28,7 @@ tokens:
     bg: surface1
   - name: LineNumbersTable
     class: lnt
-    bg: overlay1
+    color: overlay1
   - name: LineNumbers
     class: ln
     color: overlay1
@@ -60,7 +60,7 @@ tokens:
     class: nc
     color: yellow
   - name: NameConstant
-    class: nc
+    class: no
     color: yellow
   - name: NameDecorator
     class: nd
@@ -193,6 +193,7 @@ tokens:
   - name: OperatorWord
     class: ow
     color: sky
+    bold: true
   - name: Comment
     class: c
     color: overlay0
@@ -211,7 +212,7 @@ tokens:
     italic: true
   - name: CommentHashbang
     class: ch
-    color: overlay0
+    color: surface2
     italic: true
   - name: CommentPreproc
     class: cp
@@ -273,7 +274,7 @@ tokens:
 </style>
 {%- else -%}
 {%- for token in tokens %}
-{%- if token.color -%}
+{%- if token.color or token.bg -%}
 .chroma {% if token.class %}.{{ token.class }} {% endif %}{
   color: {{ flavor.colors[token.color].hex }};{% if token.bg %}
   background-color: {{ flavor.colors[token.bg].hex }};{% endif %}{% if token.bold %}

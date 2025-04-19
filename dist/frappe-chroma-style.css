@@ -11,6 +11,9 @@
 .chroma .x {
   color: #c6d0f5;
 }
+.chroma .lnt {
+  color: #838ba7;
+}
 .chroma .ln {
   color: #838ba7;
 }
@@ -41,7 +44,7 @@
 .chroma .nc {
   color: #e5c890;
 }
-.chroma .nc {
+.chroma .no {
   color: #e5c890;
 }
 .chroma .nd {
@@ -174,6 +177,7 @@
 }
 .chroma .ow {
   color: #99d1db;
+  font-weight: bold;
 }
 .chroma .c {
   color: #737994;
@@ -192,7 +196,7 @@
   font-style: italic;
 }
 .chroma .ch {
-  color: #737994;
+  color: #626880;
   font-style: italic;
 }
 .chroma .cp {
