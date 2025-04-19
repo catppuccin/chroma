@@ -18,7 +18,7 @@
   <entry type="Name" style="#cad3f5"/>
   <entry type="NameClass" style="#eed49f"/>
   <entry type="NameConstant" style="#eed49f"/>
-  <entry type="NameDecorator" style="#8aadf4"/>
+  <entry type="NameDecorator" style="bold #8aadf4"/>
   <entry type="NameEntity" style="#8bd5ca"/>
   <entry type="NameException" style="#f5a97f"/>
   <entry type="NameFunction" style="#8aadf4"/>
@@ -59,23 +59,23 @@
   <entry type="LiteralNumberFloat" style="#f5a97f"/>
   <entry type="LiteralNumberIntegerLong" style="#f5a97f"/>
   <entry type="LiteralNumberOct" style="#f5a97f"/>
-  <entry type="Operator" style="#91d7e3"/>
+  <entry type="Operator" style="bold #91d7e3"/>
   <entry type="OperatorWord" style="#91d7e3"/>
-  <entry type="Comment" style="#6e738d"/>
-  <entry type="CommentSingle" style="#6e738d"/>
-  <entry type="CommentMultiline" style="#6e738d"/>
-  <entry type="CommentSpecial" style="#6e738d"/>
-  <entry type="CommentHashbang" style="#6e738d"/>
-  <entry type="CommentPreproc" style="#6e738d"/>
-  <entry type="CommentPreprocFile" style="#6e738d"/>
+  <entry type="Comment" style="italic #6e738d"/>
+  <entry type="CommentSingle" style="italic #6e738d"/>
+  <entry type="CommentMultiline" style="italic #6e738d"/>
+  <entry type="CommentSpecial" style="italic #6e738d"/>
+  <entry type="CommentHashbang" style="italic #6e738d"/>
+  <entry type="CommentPreproc" style="italic #6e738d"/>
+  <entry type="CommentPreprocFile" style="bold #6e738d"/>
   <entry type="Generic" style="#cad3f5"/>
   <entry type="GenericInserted" style="bg:#363a4f #a6da95"/>
   <entry type="GenericDeleted" style="bg:#363a4f #ed8796"/>
-  <entry type="GenericEmph" style="#cad3f5"/>
-  <entry type="GenericStrong" style="#cad3f5"/>
-  <entry type="GenericUnderline" style="#cad3f5"/>
-  <entry type="GenericHeading" style="#f5a97f"/>
-  <entry type="GenericSubheading" style="#f5a97f"/>
+  <entry type="GenericEmph" style="italic #cad3f5"/>
+  <entry type="GenericStrong" style="bold #cad3f5"/>
+  <entry type="GenericUnderline" style="underline #cad3f5"/>
+  <entry type="GenericHeading" style="bold #f5a97f"/>
+  <entry type="GenericSubheading" style="bold #f5a97f"/>
   <entry type="GenericOutput" style="#cad3f5"/>
   <entry type="GenericPrompt" style="#cad3f5"/>
   <entry type="GenericError" style="#ed8796"/>

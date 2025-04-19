@@ -268,7 +268,7 @@ tokens:
 {%- if variant == "xml" -%}
 <style name="catppuccin-{{ flavor.identifier }}">
 {%- for token in tokens %}
-  <entry type="{{ token.name }}" style="{% if token.bg %}bg:{{ flavor.colors[token.bg].hex }} {% endif %}{% if token.color %}{{ flavor.colors[token.color].hex }}{% endif %}"/>
+  <entry type="{{ token.name }}" style="{% if token.bold %}bold {% endif %}{% if token.italic %}italic {% endif %}{% if token.underline %}underline {% endif %}{% if token.bg %}bg:{{ flavor.colors[token.bg].hex }} {% endif %}{% if token.color %}{{ flavor.colors[token.color].hex }}{% endif %}"/>
 {%- endfor %}
 </style>
 {%- else -%}
@@ -276,7 +276,10 @@ tokens:
 {%- if token.color -%}
 .chroma {% if token.class %}.{{ token.class }} {% endif %}{
   color: {{ flavor.colors[token.color].hex }};{% if token.bg %}
-  background-color: {{ flavor.colors[token.bg].hex }};{% endif %}
+  background-color: {{ flavor.colors[token.bg].hex }};{% endif %}{% if token.bold %}
+  font-weight: bold;{% endif %}{% if token.italic %}
+  font-style: italic;{% endif %}{% if token.underline %}
+  text-decoration: underline;{% endif %}
 }
 {% endif -%}
 {%- endfor %}
