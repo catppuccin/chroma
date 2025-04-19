@@ -1,0 +1,303 @@
+---
+whiskers:
+  version: "2.4.0"
+  matrix:
+    - flavor
+    - variant: ["xml", "css"]
+  filename: "dist/{{ flavor.identifier }}-chroma-style.{{ variant }}"
+  hex_format: "#{{r}}{{g}}{{b}}{{z}}"
+tokens:
+  - name: Background
+    color: text
+    bg: base
+  - name: CodeLine
+    class: cl
+    color: text
+  - name: Error
+    class: err
+    color: red
+  - name: Other
+    class: x
+    color: text
+  - name: LineTableTD
+    class: lntd
+  - name: LineTable
+    class: lntable
+  - name: LineHighlight
+    class: hl
+    bg: surface1
+  - name: LineNumbersTable
+    class: lnt
+    color: overlay1
+  - name: LineNumbers
+    class: ln
+    color: overlay1
+  - name: Keyword
+    class: k
+    color: mauve
+  - name: KeywordReserved
+    class: kr
+    color: mauve
+  - name: KeywordPseudo
+    class: kp
+    color: mauve
+  - name: KeywordConstant
+    class: kc
+    color: peach
+  - name: KeywordDeclaration
+    class: kd
+    color: red
+  - name: KeywordNamespace
+    class: kn
+    color: teal
+  - name: KeywordType
+    class: kt
+    color: red
+  - name: Name
+    class: n
+    color: text
+  - name: NameClass
+    class: nc
+    color: yellow
+  - name: NameConstant
+    class: no
+    color: yellow
+  - name: NameDecorator
+    class: nd
+    color: blue
+    bold: true
+  - name: NameEntity
+    class: ni
+    color: teal
+  - name: NameException
+    class: ne
+    color: peach
+  - name: NameFunction
+    class: nf
+    color: blue
+  - name: NameFunctionMagic
+    class: fm
+    color: blue
+  - name: NameLabel
+    class: nl
+    color: sky
+  - name: NameNamespace
+    class: nn
+    color: peach
+  - name: NameProperty
+    class: py
+    color: peach
+  - name: NameTag
+    class: nt
+    color: mauve
+  - name: NameVariable
+    class: nv
+    color: rosewater
+  - name: NameVariableClass
+    class: vc
+    color: rosewater
+  - name: NameVariableGlobal
+    class: vg
+    color: rosewater
+  - name: NameVariableInstance
+    class: vi
+    color: rosewater
+  - name: NameVariableMagic
+    class: vm
+    color: rosewater
+  - name: NameAttribute
+    class: na
+    color: blue
+  - name: NameBuiltin
+    class: nb
+    color: sky
+  - name: NameBuiltinPseudo
+    class: bp
+    color: sky
+  - name: NameOther
+    class: nx
+    color: text
+  - name: Literal
+    class: l
+    color: text
+  - name: LiteralDate
+    class: ld
+    color: text
+  - name: LiteralString
+    class: s
+    color: green
+  - name: LiteralStringChar
+    class: sc
+    color: green
+  - name: LiteralStringSingle
+    class: s1
+    color: green
+  - name: LiteralStringDouble
+    class: s2
+    color: green
+  - name: LiteralStringBacktick
+    class: sb
+    color: green
+  - name: LiteralStringOther
+    class: sx
+    color: green
+  - name: LiteralStringSymbol
+    class: ss
+    color: green
+  - name: LiteralStringInterpol
+    class: si
+    color: green
+  - name: LiteralStringAffix
+    class: sa
+    color: red
+  - name: LiteralStringDelimiter
+    class: dl
+    color: blue
+  - name: LiteralStringEscape
+    class: se
+    color: blue
+  - name: LiteralStringRegex
+    class: sr
+    color: teal
+  - name: LiteralStringDoc
+    class: sd
+    color: overlay0
+  - name: LiteralStringHeredoc
+    class: sh
+    color: overlay0
+  - name: LiteralNumber
+    class: m
+    color: peach
+  - name: LiteralNumberBin
+    class: mb
+    color: peach
+  - name: LiteralNumberHex
+    class: mh
+    color: peach
+  - name: LiteralNumberInteger
+    class: mi
+    color: peach
+  - name: LiteralNumberFloat
+    class: mf
+    color: peach
+  - name: LiteralNumberIntegerLong
+    class: il
+    color: peach
+  - name: LiteralNumberOct
+    class: mo
+    color: peach
+  - name: Operator
+    class: o
+    color: sky
+    bold: true
+  - name: OperatorWord
+    class: ow
+    color: sky
+    bold: true
+  - name: Comment
+    class: c
+    color: overlay0
+    italic: true
+  - name: CommentSingle
+    class: c1
+    color: overlay0
+    italic: true
+  - name: CommentMultiline
+    class: cm
+    color: overlay0
+    italic: true
+  - name: CommentSpecial
+    class: cs
+    color: overlay0
+    italic: true
+  - name: CommentHashbang
+    class: ch
+    color: surface2
+    italic: true
+  - name: CommentPreproc
+    class: cp
+    color: overlay0
+    italic: true
+  - name: CommentPreprocFile
+    class: cpf
+    color: overlay0
+    bold: true
+  - name: Generic
+    class: g
+    color: text
+  - name: GenericInserted
+    class: gi
+    bg: surface0
+    color: green
+  - name: GenericDeleted
+    class: gd
+    bg: surface0
+    color: red
+  - name: GenericEmph
+    class: ge
+    color: text
+    italic: true
+  - name: GenericStrong
+    class: gs
+    color: text
+    bold: true
+  - name: GenericUnderline
+    class: gl
+    color: text
+    underline: true
+  - name: GenericHeading
+    class: gh
+    color: peach
+    bold: true
+  - name: GenericSubheading
+    class: gu
+    color: peach
+    bold: true
+  - name: GenericOutput
+    class: go
+    color: text
+  - name: GenericPrompt
+    class: gp
+    color: text
+  - name: GenericError
+    class: gr
+    color: red
+  - name: GenericTraceback
+    class: gt
+    color: red
+---
+{%- if variant == "xml" -%}
+<style name="catppuccin-{{ flavor.identifier }}">
+{%- for token in tokens %}
+  {% set styles = [] -%}
+  {%- if token.bold %}{% set styles = styles | concat(with="bold") %}{% endif -%}
+  {%- if token.italic %}{% set styles = styles | concat(with="italic") %}{% endif -%}
+  {%- if token.underline %}{% set styles = styles | concat(with="underline") %}{% endif -%}
+  {%- if token.bg %}{% set styles = styles | concat(with="bg:" ~ flavor.colors[token.bg].hex) %}{% endif -%}
+  {%- if token.color %}{% set styles = styles | concat(with=flavor.colors[token.color].hex) %}{% endif -%}
+  <entry type="{{ token.name }}" style="{{ styles | join(sep=" ") }}"/>
+{%- endfor %}
+</style>
+{%- else -%}
+{%- for token in tokens %}
+{%- if token.color or token.bg -%}
+.chroma{% if token.class %} .{{ token.class }}{% endif %} {
+  {%- if token.color %}
+  color: {{ flavor.colors[token.color].hex }};
+  {%- endif %}
+  {%- if token.bg %}
+  background-color: {{ flavor.colors[token.bg].hex }};
+  {%- endif %}
+  {%- if token.bold %}
+  font-weight: bold;
+  {%- endif %}
+  {%- if token.italic %}
+  font-style: italic;
+  {%- endif %}
+  {%- if token.underline %}
+  text-decoration: underline;
+  {%- endif %}
+}
+{% endif %}
+{%- endfor %}
+{%- endif %}

@@ -11,36 +11,14 @@
 .chroma .x {
   color: #c6d0f5;
 }
-.chroma .lntd {
-  border: 0;
-  margin: 0;
-  padding: 0;
-  vertical-align: top;
-}
-.chroma .lntable {
-  width: auto;
-  border: 0;
-  margin: 0;
-  display: block;
-  padding: 0;
-  overflow: auto;
-  border-spacing: 0;
-}
 .chroma .hl {
-  width: 100%;
-  display: block;
   background-color: #51576d;
 }
 .chroma .lnt {
   color: #838ba7;
-  padding: 0 0.4em 0 0.4em;
-  font-size: 0.875rem;
-  margin-right: 0.4em;
 }
 .chroma .ln {
   color: #838ba7;
-  padding: 0 0.4em 0 0.4em;
-  margin-right: 0.4em;
 }
 .chroma .k {
   color: #ca9ee6;
@@ -275,3 +253,4 @@
 .chroma .gt {
   color: #e78284;
 }
+
