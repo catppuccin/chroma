@@ -40,19 +40,20 @@ tokens:
     color: mauve
   - name: KeywordPseudo
     class: kp
-    color: mauve
+    color: pink
   - name: KeywordConstant
     class: kc
-    color: peach
+    color: mauve
   - name: KeywordDeclaration
     class: kd
     color: red
+    italic: true
   - name: KeywordNamespace
     class: kn
-    color: teal
+    color: mauve
   - name: KeywordType
     class: kt
-    color: red
+    color: yellow
   - name: Name
     class: n
     color: text
@@ -61,17 +62,17 @@ tokens:
     color: yellow
   - name: NameConstant
     class: no
-    color: yellow
+    color: text
   - name: NameDecorator
     class: nd
-    color: blue
+    color: text
     bold: true
   - name: NameEntity
     class: ni
-    color: teal
+    color: text
   - name: NameException
     class: ne
-    color: peach
+    color: yellow
   - name: NameFunction
     class: nf
     color: blue
@@ -80,40 +81,46 @@ tokens:
     color: blue
   - name: NameLabel
     class: nl
-    color: sky
+    color: teal
+    italic: true
   - name: NameNamespace
     class: nn
-    color: peach
+    color: text
   - name: NameProperty
     class: py
     color: peach
   - name: NameTag
     class: nt
-    color: mauve
+    color: blue
   - name: NameVariable
     class: nv
-    color: rosewater
+    color: text
+    italic: true
   - name: NameVariableClass
     class: vc
-    color: rosewater
+    color: yellow
+    italic: true
   - name: NameVariableGlobal
     class: vg
-    color: rosewater
+    color: text
+    italic: true
   - name: NameVariableInstance
     class: vi
-    color: rosewater
+    color: text
+    italic: true
   - name: NameVariableMagic
     class: vm
     color: rosewater
   - name: NameAttribute
     class: na
-    color: blue
+    color: green
   - name: NameBuiltin
     class: nb
-    color: sky
+    color: red
+    italic: true
   - name: NameBuiltinPseudo
     class: bp
-    color: sky
+    color: red
   - name: NameOther
     class: nx
     color: text
@@ -155,16 +162,16 @@ tokens:
     color: blue
   - name: LiteralStringEscape
     class: se
-    color: blue
+    color: pink
   - name: LiteralStringRegex
     class: sr
-    color: teal
+    color: pink
   - name: LiteralStringDoc
     class: sd
-    color: overlay0
+    color: green
   - name: LiteralStringHeredoc
     class: sh
-    color: overlay0
+    color: green
   - name: LiteralNumber
     class: m
     color: peach
@@ -192,35 +199,35 @@ tokens:
     bold: true
   - name: OperatorWord
     class: ow
-    color: sky
+    color: mauve
     bold: true
   - name: Comment
     class: c
-    color: overlay0
+    color: overlay2
     italic: true
   - name: CommentSingle
     class: c1
-    color: overlay0
+    color: overlay2
     italic: true
   - name: CommentMultiline
     class: cm
-    color: overlay0
+    color: overlay2
     italic: true
   - name: CommentSpecial
     class: cs
-    color: overlay0
+    color: overlay2
     italic: true
   - name: CommentHashbang
     class: ch
-    color: surface2
+    color: overlay2
     italic: true
   - name: CommentPreproc
     class: cp
-    color: overlay0
+    color: pink
     italic: true
   - name: CommentPreprocFile
     class: cpf
-    color: overlay0
+    color: pink
     bold: true
   - name: Generic
     class: g
